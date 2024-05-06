@@ -1,0 +1,58 @@
+.benefit-colleciton-box {
+    margin-top: -1rem;
+    background-color: #fff;
+    border-radius: 1rem 1rem 0 0;
+    position: relative;
+}
+
+.benefit-list{
+    border-bottom: 1px solid #E4E4E4;
+    padding: 1.6rem 0 2rem;
+    justify-content: center;
+    display: flex;
+    column-gap: 1.4rem;
+}
+
+.benefit-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.6rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.benefit-item .b-icon{
+    width: 5.4rem;
+    height: 5.4rem;
+    border-radius: 50%;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefit-item .b-icon img{
+    max-width: 100%;
+}
+
+.benefit-item .b-text{
+    font-size: 1.3rem;
+    letter-spacing: 0;
+    line-height: 2rem;
+    color: #423D3F;
+    width: 10rem;
+}
+
+@media (min-width: 750px) {
+    .benefit-list{
+        padding: 2.4rem 0 3rem;
+        column-gap: 8.4rem;
+    }
+    .benefit-item {
+        column-gap: 1.2rem;
+        flex-direction: row;
+        text-align: left;
+    }
+}

@@ -1,0 +1,52 @@
+.intro_component .content {
+    max-width: 73.4rem;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro_text {
+    color: #231F20;
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    line-height: 3.8rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 7.2rem;
+}
+
+.intro_component img {
+    max-width: 64.6rem;
+    margin: auto;
+}
+
+.intro_component img.mobile-hide {
+    display: block;
+}
+.intro_component img.mobile-show {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .intro_text {
+        padding-bottom: 3rem;
+        font-size: 1.8rem;
+        letter-spacing: 0;
+        line-height: 2.4rem;
+        max-width: 32rem;
+        margin: auto;
+    }
+
+    .intro_component img {
+        width: 100%;
+        max-width: 34rem;
+    }
+
+    .intro_component img.mobile-hide {
+        display: none;
+    }
+    .intro_component img.mobile-show {
+        display: block;
+    }
+}

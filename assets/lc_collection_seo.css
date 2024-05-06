@@ -1,0 +1,143 @@
+.collecion-section-seo {
+    padding: 0 0 8.6rem;
+}
+.lc_collection_seo .flex {
+    display: flex;
+    align-items: center;
+    max-width: 123.6rem;
+}
+
+.lc_collection_seo_left {
+    width: 58.4rem;
+    margin-right: -7.8rem;
+    z-index: 9;
+}
+
+.lc_collection_seo_left img {
+    width: 100%;
+    display: block;
+}
+
+.lc_collection_seo_left img.hide-mobile {
+    display: block;
+}
+
+.lc_collection_seo_left img.hide-desktop {
+    display: none;
+}
+
+.lc_collection_seo_right {
+    width: calc(100% - 51.1rem);
+}
+.lc_collection_seo_right .wapper {
+    padding: 9.1rem 12.8rem;
+    background-color: #44B877;
+    border-radius: 1rem;
+}
+.wapper {
+    text-align: center;
+}
+.item_title {
+    color: #FFFFFF;
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    line-height: 3.2rem;
+    margin: 0 0 1rem;
+}
+
+.item_seotext {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 2.6rem;
+    margin: 0;
+}
+
+.item_seotext p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media screen and (max-width: 749px){
+    .item_seotext p{
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+    }
+
+    .lc_collection_seo_left img.hide-mobile {
+        display: none;
+    }
+    
+    .lc_collection_seo_left img.hide-desktop {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .lc_collection_seo_right .wapper {
+        padding: 9.1rem 8rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lc_collection_seo_right {
+        width: calc(50% + 7.8rem);
+    }
+    .lc_collection_seo_left {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .collecion-section-seo {
+        padding: 0 0 3rem;
+    }
+    .lc_collection_seo .flex {
+        display: block;
+    }
+
+    .lc_collection_seo_right{
+        width: 100%;
+    }
+
+    .lc_collection_seo_left {
+        margin: auto;
+    }
+
+    .lc_collection_seo_right .wapper {
+        padding: 9rem 2.2rem 2.9rem;
+        border-radius: .8rem;;
+    }
+
+    .lc_collection_seo_left {
+        margin: auto auto -11rem auto;
+    }
+
+    .item_title {
+        font-size: 1.8rem;
+        letter-spacing: 0;
+        line-height: 2.4rem;
+        margin: 0 0 0.8rem;
+    }
+
+    .item_seotext {
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .lc_collection_seo_left {
+        width: 100%;
+        margin: auto auto -9rem auto;
+    }
+
+    .lc_collection_seo_left img {
+        max-width: 100%;
+        margin: auto;
+    }
+}

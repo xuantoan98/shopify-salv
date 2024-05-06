@@ -1,0 +1,129 @@
+.blog__title {
+    color: #231F20;
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    line-height: 3.2rem;
+    text-align: center;
+    margin: 0 0 3rem;
+}
+
+.custom-slick .page-width {
+    padding: 0 0.6rem;
+}
+
+.blog__posts-items {
+    padding: 0;
+    margin: 0;
+}
+
+.blog__post {
+    padding: 0 1.2rem;
+}
+
+.circle-divider time {
+    color: #423D3F;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 0;
+    line-height: 2rem;
+}
+
+.circle-divider {
+    margin: 0 0 1.8rem;
+    display: block;
+}
+
+.media_zoom_in {
+    margin: 0 0 1.8rem;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.media_zoom_in {
+    overflow: hidden;
+}
+
+.media_zoom_in img {
+    transition: all .5s ease-in-out;
+}
+
+.media_zoom_in:hover img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.article__heading.h2 {
+    margin: 0 0 1.2rem;
+}
+
+.article__heading.h2 a {
+    color: #231F20;
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 3.2rem;
+    text-decoration: none;
+}
+
+.article__heading.h2 a:hover {
+    text-decoration: underline;
+    color: #00A4B5;
+}
+
+.article-article__excerpt, .article-article__excerpt a {
+    margin: 0;
+    color: #423D3F;
+    font-size: 1.3rem;
+    letter-spacing: 0;
+    line-height: 2rem;
+}
+
+.article-article__excerpt a:hover {
+    color: #00A4B5;
+}
+
+@media screen and (max-width: 768px) {
+    .blog__title {
+        font-size: 2.2rem;
+        letter-spacing: 0;
+        line-height: 3rem;
+        margin: 0 0 1.8rem;
+    }
+
+    .article-article__excerpt, .article-article__excerpt a {
+        display: none;
+    }
+
+    .blog__post {
+        padding: 0 0.6rem;
+        width: 30.2rem;
+    }
+
+    .custom-slick .page-width {
+        padding: 0 0 0 1.2rem;
+    }
+
+    .media_zoom_in {
+        margin: 0 0 1.2rem;
+    }
+
+    .circle-divider {
+        margin: 0 0 1rem;
+    }
+
+    .article__heading.h2 a {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+    }
+
+    .article__heading.h2 {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .blog__post {
+        width: 29.4rem;
+    }
+}

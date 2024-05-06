@@ -1,0 +1,245 @@
+.template-collection.image_active #MainContent {
+    margin-top: -130px;
+}
+.template-collection .header-wrapper {
+    background: transparent;
+}
+.header:not(.header--top-center) * > .header__search, .header--top-center > .header__search {
+    display: none;
+}
+
+.header {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.header.grid_box {
+    grid-template-columns: 2fr 114px 2fr;
+    row-gap: 0;
+}
+
+.header__icons {
+    align-items: center;
+}
+
+.menu_2 ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.menu_2 ul li,
+.menu_2 ul li a {
+    color: #231F20;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 2.4rem;
+    text-decoration: none;
+}
+
+.menu_2 ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    color: #00A4B5;
+}
+
+.menu_2 ul li + li {
+    margin-left: 3rem;
+}
+
+.header__icon--cart,
+.customer_icon {
+    margin-left: 3rem;
+}
+
+.header__icon--cart:hover svg g{
+    stroke: #00A4B5;
+}
+
+.customer_icon:hover svg g{
+    stroke: #00A4B5;
+    fill: #00A4B5;
+}
+
+
+.header__icon--cart {
+    margin-top: -0.2px;
+}
+
+.header__icon--cart svg,
+.customer_icon svg{
+    display: block;
+}
+
+.list-menu__item {
+    color: #231F20;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 2.4rem;
+    text-decoration: none;
+    padding: 0;
+}
+
+.menu_toggle svg {
+    display: block;
+}
+
+.template-collection .header__heading-logo,
+.template-product .header__heading-logo,
+.header__heading-logo.product-logo,
+.template-collection .shopify-section-header-sticky .header__heading-logo.product-logo, 
+.template-product .shopify-section-header-sticky .header__heading-logo.product-logo,
+.template-collection.not_image .header__heading-logo.product-logo {
+    display: none;
+}
+
+.template-collection .shopify-section-header-sticky .header__heading-logo,
+.template-product .shopify-section-header-sticky .header__heading-logo,
+.template-collection .header__heading-logo.product-logo,
+.template-product .header__heading-logo.product-logo,
+.template-collection.not_image  .header__heading-logo {
+    display: block;
+}
+
+.template-collection .menu_2 ul li, 
+.template-collection .menu_2 ul li a,
+.template-product .menu_2 ul li, 
+.template-product .menu_2 ul li a {
+    color: #fff;
+}
+
+.template-collection.not_image .menu_2 ul li, 
+.template-collection.not_image .menu_2 ul li a {
+    color: #231F20;
+}
+
+.template-collection .header__icon--cart svg g, 
+.template-collection .customer_icon svg g,
+.template-product .header__icon--cart svg g, 
+.template-product .customer_icon svg g {
+    stroke: #fff;
+}
+
+.template-collection.not_image .header__icon--cart svg g, 
+.template-collection.not_image .customer_icon svg g {
+    stroke: #231f20;
+}
+
+.template-product .menu_toggle svg g,
+.template-collection.image_active .menu_toggle svg g {
+    fill: #fff;
+}
+
+.template-collection .shopify-section-header-sticky .customer_icon svg g,
+.template-collection .shopify-section-header-sticky .header__icon--cart svg g {
+    stroke: #231f20;
+}
+.template-collection .shopify-section-header-sticky .menu_toggle svg g {
+    fill: #231f20;
+}
+
+
+/* Mobile */
+@media screen and (min-width: 992px) {
+    .list-menu__item.active_link span,
+    .list-menu__item:hover span {
+        color: #B76AAA;
+        text-decoration: none;
+    }
+
+    .template-product .list-menu__item.active_link span,
+    .template-product .list-menu__item:hover span {
+        color: #fff;
+    }
+
+    .mobile_only {
+        display: none;
+    }
+
+    .template-collection .list-menu__item,
+    .template-product .list-menu__item {
+        color: #fff;
+    }
+
+    .template-collection .menu_toggle svg g,
+    .template-product .menu_toggle svg g {
+        fill: #fff;
+    }
+
+    .template-collection.not_image .menu_toggle svg g,
+    .template-collection .shopify-section-header-sticky .menu_toggle svg g,
+    .template-product .shopify-section-header-sticky .menu_toggle svg g {
+        fill: #231f20;
+    }
+
+    .template-collection.not_image .header__icon--cart svg g, 
+    .template-collection.not_image .customer_icon svg g,
+    .template-collection .shopify-section-header-sticky .header__icon--cart svg g, 
+    .template-collection .shopify-section-header-sticky .customer_icon svg g,
+    .template-product .shopify-section-header-sticky .header__icon--cart svg g, 
+    .template-product .shopify-section-header-sticky .customer_icon svg g {
+        stroke: #231f20;
+    }
+
+    .open-menu .template-collection .header__heading-logo {
+        display: block;
+    }
+
+    .open-menu .header_component {
+        background-color: #fff;
+    }
+
+    .open-menu .template-collection .header__heading-logo.product-logo {
+        display: none;
+    }
+
+    .template-collection.not_image .menu_2 ul li, 
+    .template-collection.not_image .menu_2 ul li a,
+    .template-collection.not_image .list-menu__item,
+    .template-collection .shopify-section-header-sticky .menu_2 ul li, 
+    .template-collection .shopify-section-header-sticky .menu_2 ul li a,
+    .template-collection .shopify-section-header-sticky .list-menu__item, 
+    .open-menu .template-collection .header__icon--cart svg g, 
+    .open-menu .template-collection .customer_icon svg g,
+    .open-menu .template-collection .menu_toggle svg g,
+    .open-menu .template-collection .menu_2 ul li, 
+    .open-menu .template-collection .menu_2 ul li a,
+    .open-menu .template-collection .list-menu__item {
+        color: #231f20;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .list-menu__item {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .template-collection.image_active #MainContent {
+        margin-top: -92px;
+    }
+    .menu_2 {
+        display: none;
+    }
+    .header__icon--cart, .customer_icon {
+        margin-left: 2.4rem;
+    }
+
+    .header.grid_box {
+        grid-template-columns: 2fr 96px 2fr;
+    }
+
+    .announcement_content a, .announcement_content p {
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: -0.1px;
+        line-height: 2.2rem;
+    }
+
+    .header {
+        padding: 1.1rem 1.8rem;
+    }
+}

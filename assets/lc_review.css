@@ -1,0 +1,81 @@
+.reviews-container{
+    background-color: #44B877;
+    padding: 4.2rem 2.8rem 3.9rem;
+}
+.reviews-list{
+    max-width: 57rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.r-point{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.8rem;
+    justify-content: center;
+    margin-bottom: 1.6rem;
+}
+.r-icon{
+    display: block;
+    line-height: 1;
+}
+.r-comment{
+    font-size: 2rem;
+    line-height: 2.7rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1.6rem;
+}
+.r-author{
+    font-size: 1.4rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+.reviews-list .owl-dots{
+    margin-top: 2.7rem;
+}
+.reviews-list .owl-dots button.owl-dot{
+    border-color: #fff;
+    position: relative;
+}
+.reviews-list .owl-dots button.owl-dot.active{
+    border-color: #fff;
+    background-color: #fff;
+}
+.reviews-list .owl-nav{
+    position: absolute;
+    bottom: -0.3rem;
+    display: flex;
+    column-gap: 13.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.reviews-list .owl-nav button.owl-prev,
+.reviews-list .owl-nav button.owl-next{
+    min-height: unset;
+    height: auto;
+    font-size: 1.4rem;
+}
+@media screen and (min-width: 750px) {
+    .reviews-container{
+        padding: 13.2rem 2.8rem 7.5rem;
+    }
+    .r-point{
+        margin-bottom: 2.4rem;
+        column-gap: 1.6rem;
+    }
+    .r-comment{
+        margin-bottom: 2.4rem;
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+    .reviews-list .owl-dots{
+        margin-top: 7.9rem;
+    }
+}
+@media screen and (max-width: 749px){
+    .r-icon svg{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+}

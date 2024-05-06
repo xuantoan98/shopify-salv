@@ -1,0 +1,155 @@
+.shipping-section {
+	max-width: 93.6rem;
+	margin: 0 auto;
+	padding: 0 1.8rem;
+}
+
+.shipping-section + .shipping-section:not(.heading) {
+	margin-top: 5.4rem;
+}
+
+.shipping-section.heading {
+	margin-top: 5.4rem;
+	margin-bottom: 0;
+}
+
+.shipping-section.heading + .shipping-section {
+	margin-top: 3rem;
+}
+
+.shipping-component {
+	margin: 0;
+}
+
+.shipping-component-title {
+	color: #231F20;
+	font-size: 2.8rem;
+	font-weight: 600;
+	line-height: 3.2rem;
+	letter-spacing: -0.2px;
+	margin: 0;
+	text-align: center;
+}
+
+.shipping-country-component {
+	padding: 0;
+	margin: 0;
+}
+
+.country-heading {
+	color: #231F20;
+	font-size: 1.8rem;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 2.4rem;
+	margin: 0;
+	margin-bottom: 1.2rem;
+}
+
+.country-desc {
+	color: #423D3F;
+	font-size: 1.3rem;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 2rem;
+	margin: 0;
+	margin-bottom: 2.4rem;
+}
+
+.shipping-country-content {
+
+}
+
+.shipping-country-content table {
+	border-bottom: 0.1rem solid #E4E4E4;
+	width: 100%;
+}
+
+.shipping-country-content table th,
+.shipping-country-content table td {
+	padding: 0;
+	text-align: left;
+}
+
+.shipping-country-content table th:nth-child(1) {
+	width: 30.9rem;
+}
+
+.shipping-country-content table th:nth-child(2) {
+	width: 33.5rem;
+}
+
+.shipping-country-content table th {
+	color: #231F20;
+	font-size: 1.4rem;
+	font-weight: 600;
+	line-height: 2.2rem;
+	letter-spacing: 0;
+	border-bottom: 0.1rem solid #E4E4E4;
+	padding-bottom: .6rem;
+}
+
+.shipping-country-content table td {
+	color: #423D3F;
+	font-size: 1.3rem;
+	font-weight: normal;
+	line-height: 2rem;
+	border-bottom: 0.1rem solid #E4E4E4;
+	padding: 1.8rem 0;
+	vertical-align: top;
+}
+
+.shipping-country-content table td:last-child p {
+	margin: 0;
+	line-height: 2rem;
+}
+
+.shipping-country-content table td:last-child p + p {
+	margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+	.shipping-section.heading {
+		margin: 2.4rem 0;
+	}
+
+	.shipping-component {
+		margin: 0;
+	}
+
+	.shipping-component-title {
+		font-size: 2.2rem;
+		line-height: 3rem;
+		letter-spacing: 0;
+	}
+
+	.shipping-section + .shipping-section:not(.heading) {
+		margin-top: 3.6rem;
+		padding-bottom: 0;
+	}
+
+	.country-desc {
+		margin-bottom: 1.8rem;
+	}
+
+	.shipping-country-content table td {
+		padding: 1.2rem 0;
+	}
+
+	.shipping-section + .shipping-section:not(.heading):last-child {
+		padding-bottom: 0.6rem;
+	}
+
+	.shipping-section.heading + .shipping-section {
+		margin-top: 0;
+	}
+
+	.shipping-country-content table th:nth-child(1),
+	.shipping-country-content table th:nth-child(2) {
+		width: auto;
+	}
+	
+	.shipping-country-content table td:last-child {
+		line-height: 2.4rem;
+	}
+}

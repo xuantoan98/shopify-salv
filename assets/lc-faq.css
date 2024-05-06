@@ -1,0 +1,103 @@
+.accordian-heading{
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.accordian-card{
+    margin-bottom: 1.8rem;
+    border-radius: .8rem;
+    background-color: var(--color-bg-colours);
+    padding: 0;
+}
+
+.accordian-card:last-child{
+    margin-bottom: 0;
+}
+
+.accordian-card .card-heading{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 2.2rem;
+}
+
+.accordian-card .card-heading a{
+    color: var(--color-base-text);
+    text-decoration: none;
+    display: block;
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    padding: 1.9rem 1.8rem;
+    border-radius: .9rem;
+}
+
+.accordian-card .card-heading a::after{
+    position: absolute;
+    content: "\f067";
+    right: 1.8rem;
+    font-size: 1.5rem;
+    color: #888888;
+    font-weight: 500;
+    font-family: "Font Awesome 5 Pro";
+}
+
+.open .card-heading a::after{
+    content: "\f068";
+}
+
+.accordian-card .card-body{
+    display: none;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    padding: 0 1.8rem 2.4rem 1.8rem;
+}
+
+
+/* Page FAQs */
+.page-faqs .faq-section * {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.page-faqs .faq-section {
+    max-width: 936px;
+    margin: 0 auto;
+}
+
+.page-faqs .accordian-heading {
+    margin-top: 5.4rem;
+    margin-bottom: 2.4rem;
+}
+
+#shopify-section-header {
+    border: 0;
+}
+
+.set-border {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.page-faqs .accordian-card .card-heading a::after {
+    font-weight: 400;
+}
+
+@media (max-width: 749px){
+    .accordian-heading{
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        margin-bottom: 1.8rem;
+    }
+    .accordian-card{
+        margin-bottom: 1.2rem;
+    }
+
+    /* Page FAQs */
+    .page-faqs .accordian-heading {
+        font-size: 2.2rem;
+        letter-spacing: 0;
+        line-height: 3rem;
+        margin-top: 2.4rem;
+        margin-bottom: 1.8rem;
+    }
+}
+

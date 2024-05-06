@@ -1,0 +1,29 @@
+.product-recommendations {
+  display: block;
+}
+
+.product-recommendations__heading {
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+
+.product-recommendations .slick-dots li.slick-active button:before {
+  background: #39C0CC;
+  opacity: 1;
+}
+
+.product-recommendations .slick-dots li button:before {
+  border: 0.1rem solid #39C0CC;
+  content: '';
+}
+
+.product-recommendations .slick-dots li {
+  width: .8rem;
+  height: .8rem;
+  margin: 0 .4rem;
+}
+
+.product-recommendations .slick-dots li button {
+  padding: .4rem;
+}

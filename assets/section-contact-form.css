@@ -1,0 +1,143 @@
+.contact img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+.contact .form__message {
+  align-items: flex-start;
+  line-height: 2.4rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.contact .icon-success {
+  margin-top: 0.4rem;
+  width: 16px;
+  height: 16px;
+}
+
+.contact .field {
+  margin-bottom: 1.8rem;
+}
+
+.contact{
+    max-width: 103rem;
+}
+
+.contact a{
+    color: #423D3F;
+}
+
+.contact a:hover{
+    color: var(--color-text-link-hover);
+}
+
+.sub-title{
+    margin: 1.2rem 0 1.2rem;
+}
+
+.sub-title p{
+    margin: 0;
+}
+
+.contact .flex{
+    flex-wrap: wrap;
+}
+
+.c-banner{
+    width: 100%;
+}
+
+.c-content{
+    margin-top: 2.4rem;
+    width: 100%;
+    padding: 0 1.8rem;
+}
+
+.c-content .text-area{
+    height: 132px;
+}
+
+.c-content .title{
+    margin: 0;
+}
+.banner-mb{
+    display: block;
+}
+@media screen and (min-width: 750px) {
+  .contact .field {
+    margin-bottom: 1.8rem;
+  }
+  .contact .flex{
+      flex-direction: row-reverse;
+      align-items: flex-start;
+  }
+  .c-banner{
+      max-width: 47.3rem;
+      flex-basis: 47.6%;
+      border-radius: 1rem;
+  }
+  .c-content{
+        padding: 0;
+        padding-top: 0.6rem;
+      padding-right: 8rem;
+      max-width: 52.1rem;
+      flex-basis: 52.4%;
+      margin-top: 0;
+  }
+  .sub-title{
+        margin: 0.6rem 0 1.8rem;
+    }
+    .banner-dk{
+
+    }
+    .has-mobile .banner-mb{
+        display: none;
+    }
+}
+
+.contact__button {
+  margin-top: 1.8rem;
+}
+
+.contact__button button {
+    min-width: 17.6rem;
+}
+
+@media screen and (min-width: 750px) {
+  .contact__button {
+    margin-top: 1.8rem;    
+  }
+}
+
+.contact__fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1.2rem;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 749px) {
+    .contact{
+        padding: 0;
+    }
+    .c-content .title{
+        font-size: 22px;    
+        letter-spacing: 0;
+        line-height: 30px;
+        text-align: center;
+    }
+    .sub-title{
+        text-align: center;
+    }
+    .contact__button button {
+        width: 100%;
+    }
+    .has-mobile .banner-dk{
+        display: none;
+    }
+}

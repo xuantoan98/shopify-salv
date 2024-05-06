@@ -1,0 +1,31 @@
+.bundle-product-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 40rem;
+    height: 100vh;
+    z-index: 9999;
+    transform: translateX(70rem);
+    transition: .4s all;
+    padding: 3rem 2.4rem;
+}
+
+.bundle-product-wrapper.active {
+    transform: translateX(0);
+}
+
+.bundle-product-wrapper.active + .bg-bundle-product {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.2;
+    display: block;
+    z-index: 9998;
+    transition: .4s all;
+}

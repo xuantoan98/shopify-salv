@@ -1,0 +1,184 @@
+.component-banner {
+	position: relative;
+	height: 500px;
+}
+
+.component-banner img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.component-banner img.hide-desktop {
+	display: none;
+}
+
+.component-banner p {
+	color: #FFFFFF;
+	display: block;
+	font-size: 4.8rem;
+	font-weight: 600;
+	letter-spacing: -0.11px;
+	line-height: 5.4rem;
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	padding: 0 2.8rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 83.8rem;
+	padding: 19.6rem 2.8rem;
+}
+
+.component-text-bottom {
+	background-color: #39C0CC;
+	padding-top: 6.6rem;
+	padding-bottom: 8.5rem;
+	text-align: center;
+}
+
+.component-text-bottom p {
+	color: #FFFFFF;
+	font-size: 2.2rem;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 3rem;
+	max-width: 73.4rem;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+}
+
+.lc_collection_seo .flex.reverse {
+	align-items: flex-start;
+	flex-direction: row-reverse;
+}
+
+.reverse .lc_collection_seo_left {
+    position: relative;
+    right: 8rem;
+}
+
+.reverse .lc_collection_seo_left img {
+	height: 100%;
+	max-height: 39.5rem;
+	max-width: 47.2rem;
+}
+
+.shopify-section.collecion-section-seo {
+	padding-bottom: 10.3rem;
+}
+
+.about-section {
+	padding-bottom: 0;
+}
+
+.page-about-us .section-wrapper-product {
+	position: relative;
+    top: -1.6rem;
+    margin-top: 9rem;
+}
+
+.page-about-us .section-wrapper-product::before {
+	content: '';
+    background-image: url(../assets/Wavy_Line_2x.png);
+    display: block;
+    height: 1rem;
+    max-width: 64.6rem;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+	margin-bottom: 9rem;
+}
+
+.page-about-us .collecion-section-seo {
+	border-radius: 1rem 1rem 0 0;
+    padding-top: 7.8rem;
+    overflow: hidden;
+    position: relative;
+    top: -1.6rem;
+    background-color: #fff;
+}
+
+.page-about-us .reverse .lc_collection_seo_right .wapper {
+	padding: 9.1rem 9.7rem;
+}
+
+.page-about-us .collecion-section-seo + .collecion-section-seo {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+
+	.component-banner img:not(.hide-desktop) {
+		display: none;
+	}
+
+	.component-banner img.hide-desktop {
+		display: block;
+	}
+
+	.component-banner {
+		height: auto;
+	}
+
+	.component-banner p {
+		font-size: 2.8rem;
+		font-weight: 600;
+		letter-spacing: -0.2px;
+		line-height: 3.2rem;
+		padding-top: 8.6rem;
+		padding-bottom: 10.4rem;
+	}
+
+	.reverse .lc_collection_seo_left {
+		position: unset;
+	}
+
+	.component-text-bottom  {
+		padding: 3.6rem 2.8rem;
+		padding-bottom: 5rem;
+	}
+
+	.component-text-bottom p {
+		font-size: 1.8rem;
+		line-height: 2.4rem;
+		font-weight: 600;
+		letter-spacing: 0;
+	}
+
+	.shopify-section.collecion-section-seo {
+		padding-top: 2.2rem;
+		padding-bottom: 3rem;
+	}
+
+	.line-section {
+		padding: 3rem 1.8rem;
+		padding-top: 3rem;
+	}
+
+	.about-section {
+		padding-bottom: 0;
+	}
+
+	.page-about-us .reverse .lc_collection_seo_right .wapper {
+		padding: 9rem 2.2rem 2.9rem;
+	}
+
+	.page-about-us .section-wrapper-product {
+		margin-top: 3rem;
+	}
+
+	.page-about-us .section-wrapper-product::before {
+		background-image: url(../assets/Wavy_Line_2x_1.png);
+		max-width: calc(100% - 3.6rem);
+    	background-size: contain;
+		margin-bottom: 3rem;
+	}
+}
